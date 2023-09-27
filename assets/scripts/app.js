@@ -109,4 +109,4 @@ postList.addEventListener('click', event => {
        sendHttpRequest('DELETE', `https://jsonplaceholder.typicode.com/posts/${postId}` )
 
     }
-})
+});
